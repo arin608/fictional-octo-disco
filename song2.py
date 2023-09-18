@@ -113,4 +113,4 @@ def post_music():
 
 if __name__ == '__main__':
     fetch_music_data()  # 음악 데이터를 초기화
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
