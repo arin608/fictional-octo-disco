@@ -1,8 +1,4 @@
 from flask import Flask, request, jsonify
-import random
-import googleapiclient.discovery
-import pandas as pd
-import numpy as np
 from tensorflow import keras
 from konlpy.tag import Okt
 from tensorflow.keras.preprocessing.sequence import pad_sequences
